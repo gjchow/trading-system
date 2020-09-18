@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.regularuser_account_menus_gui.manage_items.RegularUserManageItemsMenuGUI">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="12" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4bc60" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Welcome to Item Managing Menu"/>
+        </properties>
+      </component>
+      <vspacer id="b6c54">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f4a56" class="javax.swing.JButton" binding="browseAllTradableButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Browse all tradable items in the system"/>
+        </properties>
+      </component>
+      <component id="3e527" class="javax.swing.JButton" binding="removeFromWishListButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove from own wishlist"/>
+        </properties>
+      </component>
+      <component id="b3320" class="javax.swing.JButton" binding="removeFromInventoryButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove from own inventory"/>
+        </properties>
+      </component>
+      <component id="f61d5" class="javax.swing.JButton" binding="requestItemButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Request that an item to be added to your inventory"/>
+        </properties>
+      </component>
+      <component id="b8a9b" class="javax.swing.JButton" binding="mostRecentThreeItemsTradedButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="See most recent three items traded"/>
+        </properties>
+      </component>
+      <component id="f8c63" class="javax.swing.JButton" binding="viewWishListInventoryButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View your wishlist and inventory"/>
+        </properties>
+      </component>
+      <component id="76518" class="javax.swing.JButton" binding="changeTradableStatusForItemButton">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Change tradable status for an inventory item"/>
+        </properties>
+      </component>
+      <component id="ca985" class="javax.swing.JButton" binding="getSuggestionForItemToLendButton">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get suggestions for item(s) that you can lend to a given user"/>
+        </properties>
+      </component>
+      <component id="ef2a5" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="back"/>
+        </properties>
+      </component>
+      <component id="4c40" class="javax.swing.JButton" binding="addToWishListButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add to own wishlist"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
